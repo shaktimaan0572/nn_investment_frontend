@@ -1,0 +1,2289 @@
+@media (max-width: 768px) {
+    .propshare-page-benner-container {
+        display:none
+    }
+}
+
+.propshare-page-benner-container .cover-img {
+    width: 100%;
+    opacity: .7
+}
+
+.propshare-page-benner-container .cover-img-wrapper {
+    position: relative;
+    overflow: hidden;
+    background: #0e1622
+}
+
+.propshare-page-benner-container .cover-img-wrapper .cover-content {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff
+}
+
+.propshare-page-benner-container .cover-img-wrapper .cover-content .title {
+    margin: 0;
+    font-size: 2.1875rem;
+    font-family: gourmand-bold;
+    color: #fff;
+    text-transform: capitalize
+}
+
+@media (max-width: 768px) {
+    .propshare-page-benner-container .cover-img-wrapper .cover-content .title {
+        font-size:1.5625rem
+    }
+}
+
+.propshare-page-benner-container .cover-img-wrapper .cover-content .location-wrapper .property-location {
+    font-size: 18px;
+    color: #fff;
+    font-family: ;
+    padding-left: 3px
+}
+
+.propshare-page-benner-container .cover-img-wrapper .cover-content .location-wrapper .icon {
+    position: relative;
+    bottom: 2px
+}
+
+.propshare-section-wrapper .featured-properties-slider {
+    margin-bottom: 3.4375rem
+}
+
+.propshare-section-wrapper .investor-stories-slider {
+    padding-bottom: 3.4375rem
+}
+
+@media (max-width: 768px) {
+    .propshare-section-wrapper .investor-stories-slider {
+        padding-bottom:25px;
+        padding-left: 0
+    }
+}
+
+.propshare-section-wrapper .investor-stories-slider .investor-info-video-wrappper {
+    display: none;
+    background: #000
+}
+
+@media (max-width: 768px) {
+    .propshare-section-wrapper .investor-stories-slider .investor-info-video-wrappper {
+        height:250px;
+        width: 100%
+    }
+
+    .propshare-section-wrapper .investor-stories-slider .investor-info-video-wrappper iframe {
+        width: 100%;
+        height: 100%
+    }
+}
+
+.propshare-section-wrapper .investor-stories-slider .slick-dots {
+    left: 0
+}
+
+@media (min-width: 1024px) {
+    .propshare-section-wrapper .investor-stories-slider .investor-profile-img {
+        position:relative
+    }
+}
+
+.propshare-section-wrapper .investor-stories-slider .investor-profile-img .investor-img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.propshare-section-wrapper .investor-stories-slider .investor-profile-img .investor-video-icon {
+    position: relative
+}
+
+.propshare-section-wrapper .investor-stories-slider .investor-profile-img .investor-video-icon img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 41px;
+    bottom: 38px;
+    cursor: pointer
+}
+
+@media (max-width: 768px) {
+    .propshare-section-wrapper .investor-stories-slider .investor-profile-img .investor-video-icon img {
+        width:30px;
+        height: 30px;
+        right: 15px;
+        bottom: 15px
+    }
+}
+
+.propshare-section-wrapper .investor-stories-slider .investor-profile-img .investor-video-icon .icon-border {
+    position: absolute;
+    border: 1px solid hsla(0,0%,100%,.3);
+    right: 26px;
+    bottom: 22px;
+    height: 80px;
+    width: 80px;
+    display: block;
+    border-radius: 50%
+}
+
+@media (max-width: 768px) {
+    .propshare-section-wrapper .investor-stories-slider .investor-profile-img .investor-video-icon .icon-border {
+        right:10px;
+        bottom: 10px;
+        height: 40px;
+        width: 40px
+    }
+}
+
+@media (min-width: 1024px) {
+    .propshare-section-wrapper .investor-stories-slider .investor-profile-img .investor-video-icon:hover {
+        -webkit-animation:bounce 1s;
+        animation: bounce 1s
+    }
+}
+
+@media (min-width: 1024px) {
+    .propshare-section-wrapper .investor-stories-slider .investor-description {
+        min-width:345px;
+        width: 345px;
+        margin: 0 auto;
+        height: 391px;
+        min-height: 391px;
+        display: table-cell;
+        vertical-align: middle
+    }
+}
+
+.propshare-section-wrapper .investor-stories-slider .investor-description .review-icon {
+    margin-bottom: 1.875rem
+}
+
+@media (max-width: 768px) {
+    .propshare-section-wrapper .investor-stories-slider .investor-description .review-icon {
+        margin:20px 0
+    }
+}
+
+.propshare-section-wrapper .investor-stories-slider .investor-description .review-icon img {
+    margin: 0 auto
+}
+
+@media (max-width: 768px) {
+    .propshare-section-wrapper .investor-stories-slider .investor-description .review-icon img {
+        width:30px
+    }
+}
+.propshare-property-description {
+    border: 1px solid #f1f2f2;
+    background: #fff;
+    color: #000
+}
+
+@media (min-width: 1024px) {
+    .propshare-property-description {
+        min-height:395px
+    }
+}
+
+.propshare-property-description .info-header-wrapper {
+    border-bottom: 1px solid #f1f2f2
+}
+
+.propshare-property-description .info-header-wrapper .info {
+    padding: 12px 30px;
+    position: relative
+}
+
+.propshare-property-description .info-header-wrapper .info .title {
+    margin-bottom: .3125rem;
+    padding-right: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.propshare-property-description .info-header-wrapper .info .subtitle {
+    margin-bottom: 0;
+    opacity: .6;
+    font-family: ;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.propshare-property-description .info-header-wrapper .info:before {
+    /* content: url(/images/svg/card-location-icon.svg); */
+    position: absolute;
+    top: 33px;
+    left: 30px
+}
+
+.propshare-property-description .info-body {
+    padding: 0 30px 12px
+}
+
+.propshare-property-description .info-body .info-content {
+    display: -webkit-box;
+    display: flex;
+    font-family: ;
+    margin-top: .9375rem
+}
+
+.propshare-property-description .info-body .info-content .title {
+    font-size: 13px;
+    opacity: .6;
+    width: 50%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left
+}
+
+.propshare-property-description .info-body .info-content .value {
+    font-size: 15px;
+    width: 50%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: right
+}
+
+.propshare-property-description .info-body .info-content sup {
+    vertical-align: -webkit-baseline-middle;
+    font-size: 10px
+}
+
+.propshare-property-description .info-body .info-content.property-investment-info .title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    opacity: 1
+}
+
+.propshare-property-description .info-body .info-content.property-investment-info .title p {
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase
+}
+
+.propshare-property-description .info-body .info-content.property-investment-info .title .investor-count {
+    opacity: .6
+}
+
+.propshare-property-description .info-body .info-content.property-investment-info .value {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.propshare-property-description .info-body .info-content.property-investment-info .value .investment-count {
+    color: #00d199;
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase
+}
+
+.propshare-property-description .propshare-progress-bar {
+    margin-top: .4375rem
+}
+
+.propshare-property-description .info-footer-wrapper {
+    margin-bottom: 0;
+    text-align: center
+}
+
+.propshare-all-properties-list {
+    display: -webkit-box;
+    display: flex
+}
+
+@media (min-width: 1024px) {
+    .propshare-all-properties-list .propshare-exclusive-propertiy-wrapper {
+        display:-webkit-box;
+        display: flex;
+        min-width: 539px;
+        width: 539px;
+        padding: 15px
+    }
+}
+
+@media (max-width: 768px) {
+    .propshare-all-properties-list .propshare-exclusive-propertiy-wrapper {
+        margin-bottom:1.875rem
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px) and (orientation:landscape) {
+    .propshare-all-properties-list .propshare-exclusive-propertiy-wrapper {
+        min-width:450px;
+        width: 450px
+    }
+}
+
+@media (min-width: 1024px) and (max-width:1180px) {
+    .propshare-all-properties-list .propshare-exclusive-propertiy-wrapper {
+        min-width:450px;
+        width: 450px
+    }
+}
+
+.propshare-all-properties-list .propshare-exclusive-propertiy-wrapper .property-image {
+    background: #ebebeb;
+    color: #ebebeb
+}
+
+@media (min-width: 1024px) {
+    .propshare-all-properties-list .propshare-exclusive-propertiy-wrapper .property-image {
+        min-height:398px;
+        min-width: 254px;
+        width: 254px;
+        height: 398px
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px) and (orientation:landscape) {
+    .propshare-all-properties-list .propshare-exclusive-propertiy-wrapper .property-image {
+        min-height:398px;
+        min-width: 200px;
+        width: 200px;
+        height: 398px
+    }
+}
+
+@media (min-width: 1024px) and (max-width:1180px) {
+    .propshare-all-properties-list .propshare-exclusive-propertiy-wrapper .property-image {
+        min-height:398px;
+        min-width: 200px;
+        width: 200px;
+        height: 398px
+    }
+}
+
+.propshare-all-properties-list .propshare-exclusive-propertiy-wrapper .property-image .prop-card-img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+@media (min-width: 1024px) {
+    .propshare-all-properties-list .propshare-exclusive-propertiy-wrapper .propshare-property-description {
+        min-height:398px;
+        min-width: 285px;
+        width: 285px
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px) and (orientation:landscape) {
+    .propshare-all-properties-list .propshare-exclusive-propertiy-wrapper .propshare-property-description {
+        min-height:398px;
+        min-width: 250px;
+        width: 250px
+    }
+}
+
+@media (min-width: 1024px) and (max-width:1180px) {
+    .propshare-all-properties-list .propshare-exclusive-propertiy-wrapper .propshare-property-description {
+        min-height:398px;
+        min-width: 250px;
+        width: 250px
+    }
+}
+
+.propshare-property-badge-content {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.propshare-property-badge {
+    background-color: #12c76d;
+    color: #fff;
+    padding: .8em 0;
+    width: 46px;
+    text-align: center;
+    z-index: 5;
+    position: relative;
+    min-height: 45px
+}
+
+.propshare-property-badge-sub {
+    color: #12c76d;
+    z-index: -1;
+    position: absolute;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0
+}
+
+.propshare-property-badge-sub:after {
+    border-left: 23px solid;
+    border-right: 23px solid;
+    border-bottom: 10px solid transparent!important;
+    bottom: -10px;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    width: 0
+}
+
+.propshare-property-badge-text {
+    color: #fff;
+    vertical-align: top;
+    font-size: 9px;
+    font-family: proxi-bold;
+    text-transform: uppercase;
+    width: 44px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.propshare-property-badge-text.other-badge {
+    bottom: -5px
+}
+
+.propshare-blog-list .propshare-blog-wrapper .card {
+    border-radius: 0;
+    height: 100%
+}
+
+@media (max-width: 768px) {
+    .propshare-blog-list .propshare-blog-wrapper .card {
+        margin-bottom:15px
+    }
+}
+
+.propshare-blog-list .propshare-blog-wrapper .card .blog-image {
+    min-height: 269px;
+    min-width: 100%;
+    width: 100%;
+    height: 269px;
+    position: relative
+}
+
+.propshare-blog-list .propshare-blog-wrapper .card .blog-image .card-img-top {
+    border-radius: 0;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    cursor: pointer
+}
+
+.propshare-blog-list .propshare-blog-wrapper .card .blog-image .blog_overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 30px;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(20%,rgba(12,21,34,0)),to(#0c1522));
+    background: linear-gradient(180deg,rgba(12,21,34,0) 20%,#0c1522);
+    height: 120px
+}
+
+.propshare-blog-list .propshare-blog-wrapper .card .card-body .propshare-proxinova-medium-heading {
+    opacity: .6;
+    margin-bottom: 1.25rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: justify;
+    min-height: 57px
+}
+
+.propshare-blog-list .propshare-blog-wrapper .card .card-body .article-details-link {
+    color: #000
+}
+
+.propshare-blog-list .propshare-blog-wrapper .card .card-body .card-title {
+    cursor: pointer;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    min-height: 60px
+}
+
+@media (max-width: 768px) {
+    .propshare-blog-list .propshare-blog-wrapper .card .card-body .card-title {
+        font-size:20px;
+        min-height: auto
+    }
+}
+
+.propshare-blog-list .propshare-blog-wrapper.propshare-list-view .card .blog-image .blog-thumbnail-wrapper .blog-info {
+    width: 80%;
+    display: -webkit-box;
+    display: flex
+}
+
+@media (max-width: 768px) {
+    .propshare-blog-list .propshare-blog-wrapper.propshare-list-view .card .blog-image .blog-thumbnail-wrapper .blog-info {
+        width:100%
+    }
+}
+
+.propshare-blog-list .propshare-blog-wrapper.propshare-list-view .card .blog-image .blog-thumbnail-wrapper .blog-info .thumnail-img {
+    padding-right: .875rem;
+    width: auto
+}
+
+.propshare-blog-list .propshare-blog-wrapper.propshare-list-view .card .blog-image .blog-thumbnail-wrapper .blog-share-icon {
+    width: 20%
+}
+
+@media (max-width: 768px) {
+    .propshare-blog-list .propshare-blog-wrapper.propshare-list-view .card .blog-image .blog-thumbnail-wrapper .blog-share-icon {
+        width:100%;
+        text-align: left
+    }
+}
+
+.propshare-blog-list .propshare-blog-wrapper.propshare-list-view .card .blog-image .blog-thumbnail-wrapper .blog-share-icon .title {
+    padding-left: 82px
+}
+
+@media (max-width: 768px) {
+    .propshare-blog-list .propshare-blog-wrapper.propshare-list-view .card .blog-image .blog-thumbnail-wrapper .blog-share-icon .title {
+        padding:0
+    }
+}
+
+.propshare-blog-list .propshare-blog-wrapper.propshare-list-view .card .card-body .card-title {
+    min-height: auto
+}
+
+@media (min-width: 1024px) {
+    .propshare-blog-list .propshare-blog-wrapper.propshare-list-view .card .card-body .card-title {
+        width:600px;
+        min-width: 600px;
+        padding-bottom: .9375rem;
+        margin: 0 auto
+    }
+}
+
+.propshare-blog-list .propshare-blog-wrapper.propshare-list-view .card .card-body .webinar_list.blog-published-details {
+    width: 18%
+}
+
+.propshare-blog-list .propshare-blog-wrapper.propshare-list-view .card .card-body .blog-published-details {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 26px;
+    color: #000
+}
+
+.propshare-blog-list .propshare-blog-wrapper.propshare-list-view .card .card-body .blog-published-details .duration-time {
+    padding-left: .625rem
+}
+
+.propshare-blog-list .propshare-blog-wrapper.propshare-list-view .card .card-body .propshare-proxinova-medium-heading {
+    margin-bottom: 1.5625rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+@media (min-width: 1024px) {
+    .propshare-blog-list .propshare-blog-wrapper.propshare-list-view .card .card-body .propshare-proxinova-medium-heading {
+        width:570px;
+        min-width: 570px;
+        margin: 0 auto 1.25rem
+    }
+}
+
+.propshare-blog-list .propshare-blog-wrapper.propshare-list-view .card .watch-recording-btn {
+    margin: 25px 0 0
+}
+
+.blog-published-details {
+    margin-bottom: 15px;
+    position: relative
+}
+
+.blog-published-details .published-video-btn {
+    background: #00d199;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 80px;
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    padding: 3px 0 0 3px;
+    cursor: pointer
+}
+
+.blog-published-details .tax-saving-type {
+    background: #00d199
+}
+
+.blog-published-details .NRI-type {
+    background: #0e1621
+}
+
+.blog-published-details .rent-yield-type {
+    background: #3664b1
+}
+
+.blog-published-details .interest-type {
+    background: #62d9e6
+}
+
+.blog-published-details .general-type {
+    background: #4a77c3
+}
+
+.blog-published-details .investment-type {
+    background: #62d9e6
+}
+
+.blog-published-details .type {
+    color: #fff;
+    font-size: 11px;
+    font-family: ;
+    padding: .125rem .4375rem .0625rem;
+    text-transform: uppercase
+}
+
+.blog-published-details .blog_type_wrapper .type {
+    margin-right: 5px
+}
+
+.blog-published-details .duration-time {
+    font-size: .75rem;
+    font-family: ;
+    padding-left: 2.1875rem
+}
+
+.blog-thumbnail-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 30px
+}
+
+.blog-thumbnail-wrapper .blog-info {
+    width: 60%;
+    float: left;
+    padding-top: 5px
+}
+
+@media (max-width: 768px) {
+    .blog-thumbnail-wrapper .blog-info {
+        width:100%
+    }
+}
+
+.blog-thumbnail-wrapper .blog-info .thumnail-img {
+    width: 25%;
+    float: left;
+    text-align: left
+}
+
+.blog-thumbnail-wrapper .blog-info .thumnail-img img {
+    height: 56px;
+    width: 56px
+}
+
+.blog-thumbnail-wrapper .blog-info .text-block {
+    width: 75%;
+    float: right;
+    text-align: left;
+    padding-top: 5px
+}
+
+.blog-thumbnail-wrapper .blog-info .text-block .title {
+    font-family: gourmand-italic;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 0
+}
+
+.blog-thumbnail-wrapper .blog-info .text-block .title .time {
+    font-size: .75rem;
+    font-family: 
+}
+
+.blog-thumbnail-wrapper .blog-info .text-block .title .time .fa-calendar-o {
+    padding-right: .4375rem
+}
+
+.blog-thumbnail-wrapper .blog-info .text-block .owner-name {
+    font-family: ;
+    font-size: 18px;
+    color: #fff;
+    margin: 0
+}
+
+.blog-thumbnail-wrapper .blog-share-icon {
+    color: #fff;
+    width: 40%;
+    float: right;
+    font-family: gourmand-italic;
+    font-size: 14px;
+    text-align: right
+}
+@media (max-width: 768px) {
+    .mobile-property-info-wrapper .property-image-block .image-wrapper {
+        position:relative;
+        height: 226px;
+        min-height: 226px
+    }
+
+    .mobile-property-info-wrapper .property-image-block .image-wrapper .prod-img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover
+    }
+
+    .mobile-property-info-wrapper .property-image-block .image-wrapper .tap-view-all {
+        position: absolute;
+        right: 10px;
+        bottom: 10px
+    }
+
+    .mobile-property-info-wrapper .property-image-block .image-wrapper .tap-view-all .tap-btn {
+        font-family: ;
+        font-size: 10px;
+        border-radius: 30px;
+        background: hsla(0,0%,100%,.8);
+        color: #000;
+        padding: 5px;
+        border: none;
+        width: 134px;
+        min-width: 134px
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-property-info-wrapper .propshare-property-description {
+        border:none;
+        padding: 0 30px;
+        margin-top: 15px;
+        background: transparent
+    }
+}
+
+@media (max-width: 768px) and (min-width:768px) and (max-width:1023px) {
+    .mobile-property-info-wrapper .propshare-property-description {
+        width:50%;
+        margin: 0 auto;
+        padding-top: 15px
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-property-info-wrapper .propshare-property-description .info-header-wrapper {
+        border-top:1px solid #f1f2f2;
+        border-left: 1px solid #f1f2f2;
+        border-right: 1px solid #f1f2f2;
+        background: #fff
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body {
+        padding:15px 30px;
+        border-left: 1px solid #f1f2f2;
+        border-right: 1px solid #f1f2f2;
+        background: #fff
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .note {
+        font-size: 13px;
+        font-family: ;
+        line-height: 16px;
+        margin-bottom: 15px;
+        text-align: center;
+        width: 100%
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .note a {
+        font-size: 13px;
+        font-family: ;
+        color: #000
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .investment-amount-wrapper {
+        display: -webkit-box;
+        display: flex
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .investment-amount-wrapper .investment-input-wrapper {
+        display: -webkit-box;
+        display: flex;
+        border: 1px solid #f1f2f2;
+        box-shadow: 0 1px 6px rgba(0,0,0,.16);
+        width: 100%;
+        float: left
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .investment-amount-wrapper .investment-input-wrapper .rupee-symbol {
+        width: 20%;
+        float: left;
+        background: #fcfcfc;
+        text-align: center;
+        height: 42px;
+        min-height: 42px
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .investment-amount-wrapper .investment-input-wrapper .rupee-symbol img {
+        height: 25px;
+        min-height: 25px;
+        position: relative;
+        top: 7px
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .investment-amount-wrapper .investment-input-wrapper .rupee-symbol span {
+        font-size: 16px;
+        font-family: ;
+        padding: 10px 0 0;
+        display: block
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .investment-amount-wrapper .investment-input-wrapper .input-block {
+        width: 80%;
+        float: right
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .investment-amount-wrapper .investment-input-wrapper .input-block input {
+        text-align: center;
+        height: 42px;
+        min-height: 42px;
+        border: none;
+        background: #fff;
+        width: 100%;
+        text-align: left;
+        padding: 0 20px;
+        color: #000
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .investment-amount-wrapper .investment-input-wrapper .input-block input:focus {
+        outline: none;
+        border: none
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .investment-amount-wrapper .investment-calendar-wrapper {
+        width: 15%;
+        float: right;
+        text-align: center
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .investment-amount-wrapper .investment-calendar-wrapper a {
+        background: #00d199;
+        height: 40px;
+        width: 40px;
+        display: inline-block;
+        padding: 8px;
+        border-radius: 3px;
+        box-shadow: 0 1px 6px rgba(0,0,0,.16);
+        margin-top: 2px
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .investment-amount-wrapper .investment-calendar-wrapper .fa {
+        color: #fff;
+        font-size: 20px
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .property-info-wrapper {
+        border-bottom: 1px solid #f1f2f2
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .property-info-wrapper .monthly-rent {
+        padding: 0 20px;
+        text-align: center;
+        border-right: 1px solid #f1f2f2
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .property-info-wrapper .ownership-info {
+        padding: 0 20px;
+        text-align: center
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .property-info-wrapper .info-block .title {
+        font-family: proxi-light;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 4px
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-body .property-info-wrapper .info-block .value {
+        font-family: proxi-semibold;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 10px
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-footer {
+        padding:0 30px 12px;
+        border-left: 1px solid #f1f2f2;
+        border-right: 1px solid #f1f2f2;
+        border-bottom: 1px solid #f1f2f2;
+        background: #fff
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-footer .propshare-progress-bar {
+        margin: 0
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-footer .info-content {
+        display: -webkit-box;
+        display: flex;
+        font-family: ;
+        margin: 10px 0
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-footer .info-content .title {
+        font-size: 13px;
+        opacity: .6;
+        width: 50%;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-footer .info-content .title p {
+        margin: 0;
+        font-size: 10px;
+        text-transform: uppercase
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-footer .info-content .title .investor-count {
+        opacity: .6
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-footer .info-content .value {
+        font-size: 15px;
+        width: 50%;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        text-align: right
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-footer .info-content .value .investment-count {
+        color: #00d199;
+        margin: 0;
+        font-size: 10px;
+        text-transform: uppercase
+    }
+
+    .mobile-property-info-wrapper .propshare-property-description .property-investment-footer .btn {
+        width: 100%;
+        min-width: 100%;
+        margin-bottom: 5px
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-property-info-wrapper .info-footer-wrapper {
+        position:fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        z-index: 999999
+    }
+
+    .mobile-property-info-wrapper .info-footer-wrapper .propshare-action-btn .btn {
+        width: 100%;
+        margin: 0
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-thumbnail-wrapper .blog-share-icon {
+        width:100%;
+        text-align: left;
+        display: none
+    }
+}
+
+.blog-thumbnail-wrapper .blog-share-icon a {
+    color: #fff
+}
+
+.blog-thumbnail-wrapper .blog-share-icon .title {
+    padding-left: 6.9375rem;
+    text-align: left;
+    margin-bottom: 11px
+}
+
+@media (max-width: 768px) {
+    .blog-thumbnail-wrapper .blog-share-icon .title {
+        padding:0
+    }
+}
+
+.blog-thumbnail-wrapper .blog-share-icon .fa {
+    font-size: 20px;
+    margin-left: 18px
+}
+
+.blog-thumbnail-wrapper .blog-share-icon .fa:last-child {
+    margin-right: 0
+}
+
+@media (max-width: 768px) {
+    .explore-more-btn {
+        padding:0 15px;
+        display: none
+    }
+}
+
+@media (min-width: 1024px) {
+    .explore-more-btn-wrapper {
+        margin-top:95px;
+        text-align: center
+    }
+
+    .explore-more-btn-wrapper .btn {
+        background: transparent;
+        margin: 0
+    }
+
+    .explore-more-btn-wrapper .btn:hover a {
+        color: #fff
+    }
+}
+
+@media (max-width: 768px) {
+    .explore-more-btn-wrapper {
+        display:none
+    }
+}
+
+.watch-recording-btn {
+    position: relative;
+    height: 50px;
+    min-height: 50px;
+    width: 200px;
+    min-width: 200px;
+    cursor: pointer
+}
+
+.watch-recording-btn:hover .video-btn {
+    color: #4a77c3;
+    background: #fff
+}
+
+.watch-recording-btn .title {
+    padding: 1px 20px 0 0;
+    margin: 0
+}
+
+.watch-recording-btn .video-btn {
+    background: #4a77c3;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 80px;
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    padding: 3px 0 0 2px
+}
+.property-investment-highlights-wrapper .investment-highlights-block {
+    background: #fff;
+    color: #000
+}
+
+.related-blog-wrapper {
+    padding-top: 2.375rem
+}
+
+.related-blog-wrapper .article-list-header-wrapper {
+    padding-bottom: 1.875rem
+}
+@media (max-width: 768px){
+.mobile-property-info-wrapper .propshare-property-description .info-header-wrapper {
+    border-top: 1px solid #f1f2f2;
+    border-left: 1px solid #f1f2f2;
+    border-right: 1px solid #f1f2f2;
+    background: #fff;
+}
+}
+.textWrapper {
+    background-image: linear-gradient(270deg,#00d199,#00c0bd,#00abd4,#0093d7,#4a77c3);
+}
+.title1{
+    text-align: center;
+    margin: 0;
+    font-family: proxi-semibold;
+    font-size: 16px;
+    color: #fff;
+    padding: 9px;
+}
+.mobile-property-info-wrapper .propshare-property-description .property-investment-body .investment-amount-wrapper .investment-calendar-wrapper {
+    width: 15%;
+    float: right;
+    text-align: center
+}
+
+.mobile-property-info-wrapper .propshare-property-description .property-investment-body .investment-amount-wrapper .investment-calendar-wrapper a {
+    background: #00d199;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 3px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.16);
+    margin-top: 2px
+}
+
+.mobile-property-info-wrapper .propshare-property-description .property-investment-body .investment-amount-wrapper .investment-calendar-wrapper .fa {
+    color: #fff;
+    font-size: 20px
+}
+
+.mobile-property-info-wrapper .propshare-property-description .property-investment-body .property-info-wrapper {
+    border-bottom: 1px solid #f1f2f2
+}
+
+.mobile-property-info-wrapper .propshare-property-description .property-investment-body .property-info-wrapper .monthly-rent {
+    padding: 0 20px;
+    text-align: center;
+    border-right: 1px solid #f1f2f2
+}
+
+.mobile-property-info-wrapper .propshare-property-description .property-investment-body .property-info-wrapper .ownership-info {
+    padding: 0 20px;
+    text-align: center
+}
+
+.mobile-property-info-wrapper .propshare-property-description .property-investment-body .property-info-wrapper .info-block .title {
+    font-family: proxi-light;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 4px
+}
+
+.mobile-property-info-wrapper .propshare-property-description .property-investment-body .property-info-wrapper .info-block .value {
+    font-family: proxi-semibold;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px
+}
+
+@media (max-width: 768px) {
+.mobile-property-info-wrapper .propshare-property-description .property-investment-footer {
+    padding:0 30px 12px;
+    border-left: 1px solid #f1f2f2;
+    border-right: 1px solid #f1f2f2;
+    border-bottom: 1px solid #f1f2f2;
+    background: #fff
+}
+
+.mobile-property-info-wrapper .propshare-property-description .property-investment-footer .propshare-progress-bar {
+    margin: 0
+}
+
+.mobile-property-info-wrapper .propshare-property-description .property-investment-footer .info-content {
+    display: -webkit-box;
+    display: flex;
+    font-family: ;
+    margin: 10px 0
+}
+
+.mobile-property-info-wrapper .propshare-property-description .property-investment-footer .info-content .title {
+    font-size: 13px;
+    opacity: .6;
+    width: 50%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.mobile-property-info-wrapper .propshare-property-description .property-investment-footer .info-content .title p {
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase
+}
+
+.mobile-property-info-wrapper .propshare-property-description .property-investment-footer .info-content .title .investor-count {
+    opacity: .6
+}
+
+.mobile-property-info-wrapper .propshare-property-description .property-investment-footer .info-content .value {
+    font-size: 15px;
+    width: 50%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: right
+}
+
+.mobile-property-info-wrapper .propshare-property-description .property-investment-footer .info-content .value .investment-count {
+    color: #00d199;
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase
+}
+
+.mobile-property-info-wrapper .propshare-property-description .property-investment-footer .btn {
+    width: 100%;
+    min-width: 100%;
+    margin-bottom: 5px
+}
+}
+
+@media (max-width: 768px) {
+.mobile-property-info-wrapper .info-footer-wrapper {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 999999
+}
+
+.mobile-property-info-wrapper .info-footer-wrapper .propshare-action-btn .btn {
+    width: 100%;
+    margin: 0
+}
+}
+
+@media (max-width: 768px) {
+.property-investment-highlights-wrapper {
+    padding:0 15px
+}
+}
+
+.property-investment-highlights-wrapper .investment-highlights-block {
+background: #fff;
+color: #000
+}
+
+@media (min-width: 1024px) {
+.property-investment-highlights-wrapper .investment-highlights-block {
+    border:1px solid #f1f2f2;
+    padding: 15px 0
+}
+}
+
+@media (min-width: 1024px) and (max-width:1180px) {
+.property-investment-highlights-wrapper .investment-highlights-block {
+    padding:8px
+}
+}
+
+.property-investment-highlights-wrapper .investment-highlights-block .investment-highlights-row.row {
+margin: 0
+}
+
+.property-investment-highlights-wrapper .investment-highlights-block .column {
+border-right: 1px solid #f1f2f2;
+height: 72px
+}
+
+@media (max-width: 768px) {
+.property-investment-highlights-wrapper .investment-highlights-block .column {
+    margin:0;
+    border: 1px solid #f1f2f2;
+    height: auto
+}
+}
+
+.property-investment-highlights-wrapper .investment-highlights-block .column:last-child {
+border: none
+}
+
+@media (max-width: 768px) {
+.property-investment-highlights-wrapper .investment-highlights-block .column:last-child {
+    border:1px solid #f1f2f2
+}
+}
+
+@media (min-width: 1024px) and (max-width:1180px) {
+.property-investment-highlights-wrapper .investment-highlights-block .column {
+    padding:0
+}
+}
+
+.property-investment-highlights-wrapper .investment-highlights-block .highlights-wrapper {
+display: -webkit-inline-box;
+display: inline-flex;
+text-align: center;
+margin-top: 12px
+}
+
+@media (max-width: 768px) {
+.property-investment-highlights-wrapper .investment-highlights-block .highlights-wrapper {
+    display:block;
+    padding: 15px 0 20px;
+    margin-top: 0
+}
+}
+
+.property-investment-highlights-wrapper .investment-highlights-block .highlights-wrapper .highlights-info {
+font-family: ;
+padding-left: 10px
+}
+
+.property-investment-highlights-wrapper .investment-highlights-block .highlights-wrapper .highlights-info .title {
+font-size: 18px;
+line-height: 31px;
+color: #000;
+margin-bottom: 0;
+display: -webkit-box;
+-webkit-line-clamp: 1;
+-webkit-box-orient: vertical;
+text-overflow: ellipsis;
+overflow: hidden
+}
+
+@media (max-width: 768px) {
+.property-investment-highlights-wrapper .investment-highlights-block .highlights-wrapper .highlights-info .title {
+    text-align:center
+}
+}
+
+@media (max-width: 320px) {
+.property-investment-highlights-wrapper .investment-highlights-block .highlights-wrapper .highlights-info .title {
+    font-size:16px
+}
+}
+
+.property-investment-highlights-wrapper .investment-highlights-block .highlights-wrapper .highlights-info .subtitle {
+font-size: 10px;
+color: #0e1622;
+opacity: .6;
+margin-bottom: 0
+}
+
+@media (max-width: 768px) {
+.property-investment-highlights-wrapper .investment-highlights-block .highlights-wrapper .highlights-info .subtitle {
+    text-transform:uppercase;
+    text-align: center
+}
+}
+
+@media (max-width: 768px) {
+.property-investment-highlights-wrapper .investment-highlights-block .highlights-wrapper .icon-wrapper {
+    height:40px
+}
+}
+
+.property-investment-highlights-wrapper .investment-highlights-block .highlights-wrapper .icon-wrapper .star-icon {
+height: 35px;
+position: relative;
+top: 5px
+}
+
+@media (max-width: 768px) {
+.historical-price-section {
+    padding:0 15px
+}
+}
+
+.historical-price-section .historical-graph-wrapper {
+border: 1px solid #f1f2f2;
+padding: 30px;
+background: #fff;
+color: #000
+}
+
+.historical-price-section .historical-graph-wrapper .property-info-wrapper {
+border: 1px solid #f1f2f2
+}
+
+.historical-price-section .historical-graph-wrapper .property-info-wrapper .row {
+margin: 0
+}
+
+@media (min-width: 1024px) {
+.historical-price-section .historical-graph-wrapper .property-info-wrapper .borderRight {
+    border-right:1px solid #f1f2f2
+}
+}
+
+.historical-price-section .historical-graph-wrapper .property-info-wrapper .wrapper-block {
+margin: 5px 0;
+padding: 10px 0;
+background: #fff
+}
+
+.historical-price-section .historical-graph-wrapper .property-info-wrapper .wrapper-block .wrapper {
+color: #000;
+text-align: center
+}
+
+.historical-price-section .historical-graph-wrapper .property-info-wrapper .wrapper-block .wrapper .value {
+font-family: ;
+font-size: 18px;
+margin: 0
+}
+
+.historical-price-section .historical-graph-wrapper .property-info-wrapper .wrapper-block .wrapper .info {
+font-family: proxi-light;
+font-size: 12px;
+margin: 0;
+text-transform: capitalize
+}
+
+.historical-price-section .historical-graph-wrapper .price-graph-wrapper {
+margin: 20px 0
+}
+
+.historical-price-section .historical-graph-wrapper .price-graph-wrapper .graph-filter-wrapper.filter-active {
+background: #f1f2f2
+}
+
+.historical-price-section .historical-graph-wrapper .price-graph-wrapper .graph-filter-wrapper {
+display: -webkit-box;
+display: flex;
+width: 235px;
+min-width: 235px;
+margin: 0 auto;
+background: #fff;
+color: #000
+}
+
+.historical-price-section .historical-graph-wrapper .price-graph-wrapper .graph-filter-wrapper .block {
+width: 20%;
+border: 1px solid #f1f2f2;
+min-height: 40px;
+height: 40px;
+cursor: pointer
+}
+
+.historical-price-section .historical-graph-wrapper .price-graph-wrapper .graph-filter-wrapper .block:active,.historical-price-section .historical-graph-wrapper .price-graph-wrapper .graph-filter-wrapper .block:hover {
+background: #f1f2f2
+}
+
+.historical-price-section .historical-graph-wrapper .price-graph-wrapper .graph-filter-wrapper .block .value {
+font-family: proxi-light;
+font-size: 12px;
+margin: 0;
+text-align: center;
+padding: 10px 0
+}
+
+@media (max-width: 768px) {
+.about-us-section {
+    padding:0 15px
+}
+
+.about-us-section ::-webkit-scrollbar {
+    display: none
+}
+}
+
+.about-us-section .about-property-wrapeer {
+border: 1px solid #f1f2f2;
+padding: 30px;
+background: #fff;
+color: #000
+}
+
+@media (max-width: 768px) {
+.about-us-section .about-property-wrapeer {
+    padding:20px
+}
+}
+
+.about-us-section .about-property-wrapeer .content {
+min-height: 313px;
+/* height: 313px; */
+overflow: hidden;
+font-size: 14px;
+font-family: ;
+text-align: justify;
+padding-right: 10px
+}
+
+.about-us-section .about-property-wrapeer .content p {
+padding: 0 10px 0 0
+}
+
+.about-us-section .about-property-wrapeer .read-more-wrapper {
+margin-top: 20px
+}
+
+.about-us-section .about-property-wrapeer .read-more-wrapper a.propshare-text-underline-effect {
+text-transform: capitalize
+}
+
+.about-us-section .about-property-wrapeer .read-more-wrapper .propshare-link.propshare-text-underline-effect:after {
+background-color: #4a77c3
+}
+
+.about-us-section .about-property-wrapeer .jspContainer .jspVerticalBar {
+width: 5px;
+background: #fff
+}
+
+.about-us-section .about-property-wrapeer .jspContainer .jspDrag {
+background: #d1d1d1;
+border-radius: 5px;
+width: 5px;
+left: 0
+}
+
+.about-us-section .about-property-wrapeer .jspContainer .jspTrack {
+background: #f1f2f2;
+margin: 0 auto;
+width: 5px
+}
+
+.border-right {
+border-right: 1px solid #f1f2f2
+}
+
+@media (max-width: 768px) {
+.property-location-highlights-wrapper {
+    padding:0 15px
+}
+}
+
+.property-location-highlights-wrapper .location-map-wrapper {
+border: 1px solid #f1f2f2
+}
+
+.property-location-highlights-wrapper .location-map-wrapper .map-description {
+background: #fff;
+color: #000;
+padding: 30px;
+margin: 0;
+font-size: 14px;
+font-family: ;
+text-align: justify;
+line-height: 22px
+}
+
+@media (max-width: 768px) {
+.property-location-highlights-wrapper .location-map-wrapper .map-description {
+    padding:20px
+}
+}
+
+.property-location-highlights-wrapper .location-map-wrapper .map-image-wrapper {
+height: 477px;
+min-height: 477px
+}
+
+@media (max-width: 768px) {
+.property-location-highlights-wrapper .location-map-wrapper .map-image-wrapper {
+    height:250px;
+    min-height: 250px
+}
+}
+
+@media (max-width: 768px) {
+.property-floor-plan-wrapper {
+    padding:0 15px
+}
+}
+
+@media (min-width: 1024px) {
+.property-floor-plan-wrapper {
+    margin-bottom:110px
+}
+}
+
+.property-floor-plan-wrapper .floor-image-wrapper {
+border: 1px solid #f1f2f2
+}
+
+.property-floor-plan-wrapper .floor-image-wrapper .floor-description {
+padding: 30px;
+margin: 0;
+font-size: 14px;
+font-family: ;
+text-align: justify;
+background: #fff;
+color: #000
+}
+
+@media (max-width: 768px) {
+.property-floor-plan-wrapper .floor-image-wrapper .floor-description {
+    padding:20px
+}
+}
+
+.property-floor-plan-wrapper .floor-image-wrapper .floor-image {
+width: 100%
+}
+
+.property-share-icon-wrapper {
+border: 1px solid #f1f2f2;
+padding: 10px;
+margin-top: 30px;
+background: #fff
+}
+
+.property-share-icon-wrapper .whats_app_icon {
+cursor: not-allowed
+}
+
+.property-share-icon-wrapper .email_icon {
+position: relative;
+top: 10px;
+left: 6px
+}
+
+@media (max-width: 768px) {
+.property-share-icon-wrapper .row.share-icon-row {
+    margin:0;
+    padding: 10px 20px 15px 0;
+    background: #fff
+}
+}
+
+@media (min-width: 1024px) {
+.property-share-icon-wrapper .linkedin_share_icon .fa {
+    font-size:22px;
+    width: 35px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    padding: 4px;
+    background: #0e76a8;
+    color: #fff;
+    border-radius: 4px;
+    position: relative;
+    top: 9px;
+    margin: 0 auto
+}
+}
+
+@media (max-width: 768px) {
+.property-share-icon-wrapper {
+    padding:0 15px;
+    border: none;
+    background: transparent
+}
+
+.property-share-icon-wrapper .wrapper {
+    border: 1px solid #f1f2f2
+}
+}
+
+.property-share-icon-wrapper .title {
+margin-bottom: 0;
+color: #0e1622;
+font-size: 15px;
+text-align: center;
+padding-top: 12px
+}
+
+@media (min-width: 1024px) {
+.property-share-icon-wrapper .title {
+    position:relative;
+    left: 15px
+}
+}
+
+@media (max-width: 320px) {
+.property-share-icon-wrapper .title {
+    font-size:12px;
+    padding-top: 15px
+}
+}
+
+.property-share-icon-wrapper .icon-wrapper {
+margin: 0 0 0 10px
+}
+
+@media (max-width: 320px) {
+.property-share-icon-wrapper .icon-wrapper {
+    margin:0 0 0 8px
+}
+}
+
+.property-share-icon-wrapper .icon_link {
+width: 48px;
+height: 48px;
+display: block
+}
+
+@media (max-width: 768px) {
+.property-reports-wrapper {
+    padding:0 15px
+}
+}
+
+.property-reports-block {
+border: 1px solid #f1f2f2;
+background: #fff;
+color: #000
+}
+
+@media (max-width: 320px) {
+.property-reports-block {
+    padding:10px
+}
+}
+
+.property-reports-block .inner-wrapper {
+color: #0e1622;
+padding: 30px
+}
+
+@media (max-width: 768px) {
+.property-reports-block .inner-wrapper {
+    padding:20px
+}
+}
+
+@media (max-width: 320px) {
+.property-reports-block .inner-wrapper {
+    padding:20px 0
+}
+}
+
+.property-reports-block .inner-wrapper .wrapper-title {
+font-size: 16px;
+margin-bottom: 20px;
+margin-top: 0;
+padding: 0
+}
+
+.property-reports-block .inner-wrapper .wrapper-sub-title {
+font-size: 14px;
+margin-bottom: 20px;
+margin-top: 0
+}
+
+.property-reports-block .inner-wrapper .download-btn {
+font-size: 11px;
+min-width: 286px;
+width: 286px;
+text-align: left;
+padding: 14px 50px;
+margin: 0;
+position: relative;
+background: #fff;
+color: #0e1622
+}
+
+@media (max-width: 768px) {
+.property-reports-block .inner-wrapper .download-btn {
+    padding:14px 25px;
+    width: 100%;
+    min-width: 100%
+}
+}
+
+@media (max-width: 320px) {
+.property-reports-block .inner-wrapper .download-btn {
+    padding:5px 15px;
+    font-size: 11px
+}
+}
+
+@media (min-width: 768px) and (max-width:1024px) and (orientation:landscape) {
+.property-reports-block .inner-wrapper .download-btn {
+    padding:14px;
+    width: 100%;
+    min-width: 100%
+}
+}
+
+.property-reports-block .inner-wrapper .download-btn:hover {
+background: #fff;
+color: #0e1622
+}
+
+.property-reports-block .inner-wrapper .download-btn .download-icon {
+position: absolute;
+top: 7px;
+bottom: 0;
+right: 15px;
+width: 30px
+}
+
+@media (max-width: 320px) {
+.property-reports-block .inner-wrapper .download-btn .download-icon {
+    width:20px;
+    top: 10px;
+    right: 5px
+}
+}
+
+@media (max-width: 768px) {
+.propshare-webinar-video-wrapper {
+    padding:0 15px
+}
+}
+
+.propshare-webinar-video-wrapper .webinar-video-list-wrapper {
+background: #fff
+}
+
+.propshare-webinar-video-wrapper .webinar-video-list-wrapper .slick-slide {
+min-height: 200px;
+height: 200px
+}
+
+.propshare-webinar-video-wrapper .video-block {
+position: relative;
+height: 200px;
+min-height: 200px
+}
+
+@media (min-width: 1024px) {
+.propshare-webinar-video-wrapper .video-block {
+    width:335px
+}
+}
+
+@media (min-width: 768px) and (max-width:1024px) and (orientation:landscape) {
+.propshare-webinar-video-wrapper .video-block {
+    width:auto
+}
+}
+
+.propshare-webinar-video-wrapper .video-block .cover-img {
+width: 100%;
+height: 100%;
+-o-object-fit: cover;
+object-fit: cover
+}
+
+.propshare-webinar-video-wrapper .video-block .video-play-btn {
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+cursor: pointer
+}
+
+.propshare-webinar-video-wrapper .video-block .video-play-btn img {
+width: 50px
+}
+
+.propshare-webinar-video-wrapper .video-block .webinar-video-wrapper {
+display: none;
+height: 197px
+}
+
+@media (min-width: 1024px) {
+.propshare-webinar-video-wrapper .video-block .webinar-video-wrapper {
+    width:335px
+}
+}
+
+.propshare-webinar-video-wrapper .video-block .webinar-video-wrapper iframe {
+width: 100%;
+height: 100%
+}
+
+.no-border {
+border: none!important
+}
+
+@media (min-width: 1024px) {
+.property-property-pricing-wrapper .pie-chart {
+    width:350px;
+    min-width: 350px;
+    margin: 0 auto
+}
+}
+
+.property-property-pricing-wrapper table {
+width: 100%
+}
+
+@media (min-width: 1024px) {
+.property-property-pricing-wrapper .pie-chart-graph {
+    width:350px;
+    min-width: 350px;
+    margin: 0 auto
+}
+}
+
+.property-property-pricing-wrapper ::-webkit-scrollbar {
+display: none
+}
+
+@media (max-width: 768px) {
+.property-property-pricing-wrapper {
+    padding:0 15px
+}
+}
+
+.property-property-pricing-wrapper .property-property-pricing-pie-chart-block {
+border: 1px solid #f1f2f2;
+background: #fff;
+color: #000
+}
+
+.property-property-pricing-wrapper .property-property-pricing-pie-chart-block .pie-tab-title {
+font-size: 14px;
+color: #0e1622;
+opacity: .7;
+font-family: 
+}
+
+.property-property-pricing-wrapper .property-property-pricing-pie-chart-block .pie-tab-subtitle {
+font-size: 20px;
+color: #000;
+font-family: Arial-Sans;
+font-weight:600
+}
+
+.property-property-pricing-wrapper .property-property-pricing-pie-chart-block .property-chart-accordio-wrapper {
+padding: 15px 0
+}
+
+@media (max-width: 768px) {
+.property-property-pricing-wrapper .property-property-pricing-pie-chart-block .property-chart-accordio-wrapper {
+    padding:20px
+}
+}
+
+.property-property-pricing-wrapper .property-property-pricing-pie-chart-block .property-chart-accordio-wrapper .propshare-accordion-wrapper {
+margin-top: 20px
+}
+
+.property-property-pricing-wrapper .property-property-pricing-pie-chart-block .property-chart-accordio-wrapper .propshare-accordion-wrapper:first-child {
+margin-top: 10px
+}
+
+.property-property-pricing-wrapper .property-property-pricing-pie-chart-block .property-chart-accordio-wrapper .propshare-accordion-header .accordion-title {
+margin: 0 .9375rem 10px;
+color: #000;
+font-family: ;
+font-size: 14px;
+cursor: pointer
+}
+
+@media (max-width: 768px) {
+.property-property-pricing-wrapper .property-property-pricing-pie-chart-block .property-chart-accordio-wrapper .propshare-accordion-header .accordion-title {
+    margin:1.4375rem 0 1.1875rem
+}
+}
+
+.property-property-pricing-wrapper .property-property-pricing-pie-chart-block .property-chart-accordio-wrapper .propshare-accordion-header .accordion-background {
+display: inline-block;
+width: 10px;
+height: 10px;
+margin-right: 11px
+}
+
+.property-property-pricing-wrapper .property-property-pricing-pie-chart-block .property-chart-accordio-wrapper .propshare-accordion-content {
+font-family: ;
+font-size: 14px;
+line-height: 22px;
+color: #000;
+opacity: .6
+}
+
+@media (min-width: 1024px) {
+.property-property-pricing-wrapper .property-property-pricing-pie-chart-block .property-chart-accordio-wrapper .propshare-accordion-content {
+    margin:10px 10px 20px 40px
+}
+}
+
+.property-property-pricing-wrapper .property-property-pricing-pie-chart-block .property-chart-accordio-wrapper .propshare-accordion-content .accordion-content {
+border-top: 1px solid #f1f2f2;
+padding-top: 15px
+}
+
+@media (max-width: 768px) {
+.property-tenants-wrapper {
+    padding:0 15px
+}
+}
+
+.property-tenants-wrapper .slick-slider {
+background: #fff;
+margin-bottom: 0
+}
+
+.property-tenants-wrapper .slick-dots {
+margin-bottom: 30px;
+position: relative;
+background: #fff;
+padding-bottom: 15px
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper {
+background: #fff;
+color: #000
+}
+
+@media (min-width: 1024px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper {
+    padding:0 30px
+}
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .image-wrapper {
+margin-top: 30px
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .image-wrapper img {
+background: #fff;
+height: 80px;
+padding: 5px
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .label {
+font-family: ;
+font-size: 16px;
+color: #0e1622;
+opacity: .5;
+margin-bottom: 15px
+}
+
+@media (max-width: 768px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .label {
+    margin-bottom:10px
+}
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .content {
+font-family: ;
+font-size: 14px;
+color: #000;
+margin-bottom: 0
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-name-wrapper {
+margin: 0 0 30px
+}
+
+@media (max-width: 768px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-name-wrapper {
+    padding:0 20px;
+    margin: 20px 0
+}
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-name-wrapper .wrapper {
+margin-top: 30px
+}
+
+@media (max-width: 768px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-name-wrapper .wrapper {
+    margin-top:10px
+}
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-name-wrapper .wrapper .content {
+font-size: 18px
+}
+
+@media (max-width: 768px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-name-wrapper .wrapper .content {
+    font-size:13px
+}
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-name-wrapper .label {
+margin-bottom: 8px
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-description-wrapper {
+margin: 30px 0
+}
+
+@media (max-width: 768px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-description-wrapper {
+    padding:0 20px;
+    margin: 20px 0
+}
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-description-wrapper .wrapper {
+text-align: justify
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-time-period-wrapper {
+margin: 30px 0
+}
+
+@media (max-width: 768px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-time-period-wrapper {
+    padding:0 20px;
+    margin: 20px 0
+}
+}
+
+@media (max-width: 768px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-time-period-wrapper .mb-line-wrapper:after {
+    content:"";
+    height: 68px;
+    width: 1px;
+    background: #f1f2f2;
+    display: block;
+    margin-left: 18px
+}
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-time-period-wrapper .wrapper {
+position: relative
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-time-period-wrapper .wrapper .image {
+width: 38px;
+height: 38px;
+border-radius: 50%;
+border: 1px solid #0e1622;
+position: absolute;
+left: 0
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-time-period-wrapper .wrapper .image img {
+height: 26px;
+width: 26px;
+margin: 5px
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-time-period-wrapper .wrapper .image.lock-in {
+border: 1px solid #0e1622
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-time-period-wrapper .wrapper .wrapper-content {
+padding-left: 50px
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-time-period-wrapper .wrapper .wrapper-content p {
+margin: 0;
+font-family: ;
+color: #000
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-time-period-wrapper .wrapper .wrapper-content .title {
+font-size: 12px;
+opacity: .6
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-time-period-wrapper .wrapper .wrapper-content .subtitle {
+font-size: 15px
+}
+
+@media (min-width: 1024px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenants-time-period-wrapper .wrapper .wrapper-content.border-line:after {
+    content:"";
+    width: 70px;
+    height: 1px;
+    background: #f1f2f2;
+    position: absolute;
+    top: 18px;
+    right: -15px
+}
+}
+
+@media (max-width: 768px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenant-property-info-wrapper .label {
+    margin-left:20px
+}
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenant-property-info-wrapper .tenant-property-info-block {
+text-align: center
+}
+
+@media (min-width: 1024px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenant-property-info-wrapper .tenant-property-info-block {
+    padding:15px;
+    border: 1px solid #f1f2f2;
+    margin: 15px 0 30px
+}
+}
+
+@media (max-width: 768px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenant-property-info-wrapper .tenant-property-info-block {
+    margin:0
+}
+}
+
+@media (min-width: 1024px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenant-property-info-wrapper .tenant-property-info-block .inner-wrapper {
+    padding:0;
+    border-right: 1px solid #f1f2f2
+}
+}
+
+@media (max-width: 768px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenant-property-info-wrapper .tenant-property-info-block .inner-wrapper {
+    padding:20px
+}
+}
+
+@media (min-width: 1024px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenant-property-info-wrapper .tenant-property-info-block .inner-wrapper:last-child {
+    border:none
+}
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenant-property-info-wrapper .tenant-property-info-block .wrapper {
+font-family: ;
+height: 80px;
+min-height: 80px;
+padding-top: 15px;
+background: #fff;
+color: #000
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenant-property-info-wrapper .tenant-property-info-block .wrapper .title {
+font-size: 20px;
+margin-bottom: 0
+}
+
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenant-property-info-wrapper .tenant-property-info-block .wrapper .subtitle {
+font-size: 12px;
+opacity: .5;
+margin-bottom: 0;
+text-transform: uppercase
+}
+
+@media (max-width: 768px) {
+.property-tenants-wrapper .tenants-wrapper-slider .tenants-wrapper .tenant-property-info-wrapper .tenant-property-info-block .wrapper .subtitle {
+    font-size:10px
+}
+}

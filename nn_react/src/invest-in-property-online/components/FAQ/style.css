@@ -1,0 +1,121 @@
+/*! CSS Used from: Embedded */
+*{font-family:"Open Sans",Arial, Helvetica, sans-serif;}
+.title_bold{font-size:20px;line-height:28px;font-weight:700;color:#091e42;display:block;text-align:left;vertical-align:middle;}
+*{box-sizing:border-box;font-family:"Open Sans", Arial, Helvetica, sans-serif;}
+a,a:link,a:visited{text-decoration:none;}
+div,h3,a,i{margin:0;padding:0;border:0;vertical-align:baseline;font-weight:inherit;font-size:inherit;}
+body *{-webkit-tap-highlight-color:transparent;}
+.spacer8::after{content:"";display:block;height:8px;width:100%;clear:both;}
+.spacer10::after{content:"";display:block;height:10px;width:100%;clear:both;}
+a{-webkit-tap-highlight-color:transparent;}
+.list_header_semiBold{font-size:14px;line-height:20px;font-weight:600;color:#091e42;display:block;text-align:left;vertical-align:middle;}
+.caption_strong_medium{font-size:12px;line-height:16px;font-weight:400;color:#42526e;display:block;text-align:left;vertical-align:middle;}
+/*! CSS Used fontfaces */
+@font-face{font-family:"Open Sans";font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"), local(OpenSans-Regular), url(https://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format("woff2");unicode-range:U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:"Open Sans";font-style:normal;font-weight:600;font-display:swap;src:local("Open Sans SemiBold"), local(OpenSans-SemiBold), url(https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2) format("woff2");unicode-range:U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:"Open Sans";font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"), local(OpenSans-Bold), url(https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format("woff2");unicode-range:U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+.bgCardContainer__bgCardContainer div, .bgCardContainer__bgCardContainer h3 {
+    position: relative;
+}
+
+.slider__xidSliderWrap, .slider__xidSliderWrap>div, .slider__SliderWrap, .slider__SliderWrap>div {
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow: -moz-scrollbars-none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.bgCardContainer__bgCardContainer .bgCardContainer__cardWrap>div>div:first-child {
+    margin-left: 20px;
+}
+
+.bgCardContainer__bgCardContainer .bgCardContainer__cardWrap>div>div {
+    margin-right: 8px;
+}
+.bgCardContainer__bgCardContainer div, .bgCardContainer__bgCardContainer h3 {
+    position: relative;
+}
+.bgCardContainer__bgCardContainer>div:first-child {
+    padding: 16px 12px 0;
+}
+
+.bgCardContainer__bgCardContainer .bgCardContainer__cardBg {
+    /* background-color: #FFFBF3; */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 165px;
+    margin-left: 8px;
+    width: calc(100% - 8px);
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
+.bgCardContainer__bgCardContainer .bgCardContainer__bgCardTitle {
+    padding: 12px 4px 0 20px;
+}
+
+.bgCardContainer__bgCardContainer div, .bgCardContainer__bgCardContainer h3 {
+    position: relative;
+}
+.feedbackCard__feedbackCard {
+    width: 290px;
+    height: 210px;
+    padding: 16px;
+    display: inline-block;
+    border: 1px solid #EBECF0;
+    background: #fff;
+    white-space: normal !important;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+.feedbackCard__feedbackCard .feedbackCard__userprofile>div {
+    display: inline-block;
+    width: 40px;
+    vertical-align: top;
+} 
+
+.bgCardContainer__bgCardContainer div, .bgCardContainer__bgCardContainer h3 {
+    position: relative;
+}
+.body_small {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #8993a4;
+    display: block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.Avatar__avatars40_color4 {
+    width: 40px;
+    height: 40px;
+    background: #f7c485;
+    color: #041533;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding-top: 8px;
+    vertical-align: middle;
+}
+
+.feedbackCard__feedbackCard .feedbackCard__userprofile>div:nth-child(2) {
+    width: calc(90% - 65px);
+    margin-left: 16px;
+    white-space: normal;
+}
+
+.feedbackCard__feedbackCard .feedbackCard__userprofile>div {
+    display: inline-block;
+    width: 40px;
+    vertical-align: top;
+}

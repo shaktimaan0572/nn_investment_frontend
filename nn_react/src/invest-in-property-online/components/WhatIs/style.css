@@ -1,0 +1,58 @@
+/*! CSS Used from: Embedded */
+*{font-family:"Open Sans",Arial, Helvetica, sans-serif;}
+.title_bold{font-size:20px;line-height:28px;font-weight:700;color:#091e42;display:block;text-align:left;vertical-align:middle;}
+*{box-sizing:border-box;font-family:"Open Sans", Arial, Helvetica, sans-serif;}
+div,h2,img{margin:0;padding:0;border:0;vertical-align:baseline;font-weight:inherit;font-size:inherit;}
+body *{-webkit-tap-highlight-color:transparent;}
+.objectFitContain{object-fit:contain;}
+.spacer8::after{content:"";display:block;height:8px;width:100%;clear:both;}
+.spacer10::after{content:"";display:block;height:10px;width:100%;clear:both;}
+.spacer16::after{content:"";display:block;height:16px;width:100%;clear:both;}
+.spacer32::after{height:32px;clear:both;content:"";display:block;overflow:hidden;}
+.pdWrap20{padding:0 20px;}
+.list_header_semiBold{font-size:14px;line-height:20px;font-weight:600;color:#091e42;display:block;text-align:left;vertical-align:middle;}
+.caption_subdued_large{font-size:14px;line-height:20px;font-weight:400;color:#8993a4;display:block;text-align:left;vertical-align:middle;}
+.caption_subdued_small{font-size:10px;line-height:12px;font-weight:400;color:#8993a4;display:block;text-align:left;vertical-align:middle;}
+.bold{font-weight:700!important;}
+.textC{text-align:center!important;}
+.Ng800{color:#041533!important;}
+.textC{text-align:center!important;}
+.simpleSteps__stepswrap .simpleSteps__wd55 {
+    width: 55%;
+}
+.simpleSteps__stepswrap>div {
+    display: inline-block;
+}
+.simpleSteps__stepswrap .simpleSteps__wd45 {
+    width: 45%;
+    vertical-align: bottom;
+}
+
+.simpleSteps__stepswrap>div {
+    display: inline-block;
+}
+.simpleSteps__stepswrap .simpleSteps__wd55 {
+    width: 55%;
+}
+
+.simpleSteps__stepswrap>div {
+    display: inline-block;
+}
+.textR {
+    text-align: right !important;
+}
+
+ul{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #42526E;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/*! CSS Used fontfaces */
+@font-face{font-family:"Open Sans";font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"), local(OpenSans-Regular), url(https://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format("woff2");unicode-range:U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:"Open Sans";font-style:normal;font-weight:600;font-display:swap;src:local("Open Sans SemiBold"), local(OpenSans-SemiBold), url(https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2) format("woff2");unicode-range:U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:"Open Sans";font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"), local(OpenSans-Bold), url(https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format("woff2");unicode-range:U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}

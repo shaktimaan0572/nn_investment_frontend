@@ -1,0 +1,20 @@
+/*! CSS Used from: https://media2.propertyshare.in/minified/themes/default/desktop/css/property-details.css?id=7134ad72a8a59f08b94b */
+*,:after,:before{box-sizing:border-box;}
+p{margin-top:0;margin-bottom:1rem;}
+.col-12,.col-sm-12{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+.col-12{flex:0 0 100%;max-width:100%;}
+@media (min-width:576px){
+.col-sm-12{flex:0 0 100%;max-width:100%;}
+}
+@media print{
+*,:after,:before{text-shadow:none!important;box-shadow:none!important;}
+p{orphans:3;widows:3;}
+}
+.no-padding{padding:0;}
+.details-announcement-bar{background-image:linear-gradient(270deg,#00d199,#00c0bd,#00abd4,#0093d7,#4a77c3);}
+@media (min-width:1024px){
+.details-announcement-bar{margin-bottom:10px;}
+}
+.details-announcement-bar .title{text-align:center;margin:0;font-family:proxi-semibold;font-size:16px;color:#fff;padding:9px;}
+/*! CSS Used fontfaces */
+@font-face{font-family:proxi-semibold;src:url(https://media2.propertyshare.in/fonts/proximanova-semibold-webfont.woff2?v=1.0.0) format("truetype");font-weight:400;font-style:normal;}

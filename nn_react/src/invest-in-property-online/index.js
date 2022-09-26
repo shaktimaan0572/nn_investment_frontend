@@ -30,28 +30,7 @@ const InvestOnline = () => (
     <WhatIs />
     <Steps />
     <FAQ />
-    {/* <Why99Acres /> */}
-    {/* <Heatmap /> */}
-    {/* <Comparison /> */}
-    {/* <Referral /> */}
-    {/* <FeedbackCardContainer title="Testimonials" cta="" /> */}
-    {/* <Article /> */}
     <Disclaimer />
-    {/* <Footer /> */}
   </Fragment>
 );
-// InvestOnline.initialAction = (obj = {}) => dispatch => [dispatch(getTestimonialData(obj))];
-// export const reducers = {
-//   global: GlobalReducer,
-//   hamburgerState,
-//   header,
-//   headerReducer,
-//   userState,
-//   GdprReducer,
-//   ownerPreference,
-//   home,
-// };
-// export const staticReducers = { ...reducers, };
-// export const pageType = "ownerPreference";
-// export const trackingLabel = "OWNER_PREFERENCE";
 export default InvestOnline;

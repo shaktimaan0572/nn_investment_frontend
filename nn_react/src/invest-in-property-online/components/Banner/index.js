@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
 import styles from './banner.css';
-import propShare from '../../../realestate-crowdfunding.jpg';
-import { useHistory } from "react-router-dom";
+// import propShare from '../../../realestate-crowdfunding.jpg';
+// import { useHistory } from "react-router-dom";
+import banner from '../../../real_estate_crowdfunding.png';
+
 
 const list = ['Accessible', 'Data Driven', 'Transparent'];
 
@@ -32,8 +34,14 @@ const Banner = props => {
             <h2><span>A one-stop shop for diversified real estate investments</span></h2>
             <div className={styles.img} style={{marginBottom:'20px'}}>
                 <img
-                    src="https://media2.propertyshare.in/images/banners/embassy_business_hub_home_page_banner_v2.png"
-                    height="300"
+                    style={{
+                    display: 'block',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                    objectFit: 'contain'
+                }}
+                    src={banner}
+                    height="230"
                     width="345"
                 />
             </div>

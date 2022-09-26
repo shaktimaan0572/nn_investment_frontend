@@ -24,6 +24,10 @@ const WhatIs = props => {
            </h2>
             </div>
                 <img
+                    style={{
+                    marginLeft: 'auto',
+                    display: 'block',
+                    marginRight: 'auto'}}
                     src={propShare}
                     height="300"
                     width="345"

@@ -57,7 +57,7 @@ const NnInvestmentTuple = (props) => {
         </div>
         <div className={"info-footer-wrapper"}>
           <div className={"propshare-action-btn"}>
-              <button type="button" className={"btn-primary"} onClick={onClick}>View Opportunity</button>
+              <button type="button" className={"btn-primary"} style={{width:'90%'}} onClick={onClick}>View Opportunity</button>
           </div>
         </div>
       </div>

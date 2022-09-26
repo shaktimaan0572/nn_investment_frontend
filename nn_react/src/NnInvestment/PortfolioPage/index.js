@@ -16,7 +16,7 @@ const PortFolioPage = () =>{
             <div style={{ float: 'right', padding: '5px' }}>v</div>
           </div>
           {progressDiv && <div style={{display:'flex', margin:'10px'}}>
-            <div>Blossom County Investment fund</div>
+            <div>Miraya Rose</div>
             <div style={{marginLeft:'auto', fontWeight:'600'}}>Rs 30,000</div>
             </div>}
           <div style={{ display: 'block', color: 'blue', fontWeight: 600, padding: '10px' }}>

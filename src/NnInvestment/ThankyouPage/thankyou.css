@@ -1,0 +1,85 @@
+/*! CSS Used from: Embedded */
+.buttons__semi{font-weight:600;}
+/* *{font-family:"Open Sans",Arial, Helvetica, sans-serif;}
+.title_bold{font-size:20px;line-height:28px;font-weight:700;color:#091e42;display:block;text-align:left;vertical-align:middle;}
+*{box-sizing:border-box;font-family:"Open Sans", Arial, Helvetica, sans-serif;}
+a,a:link,a:visited{text-decoration:none;}
+div,span,a,i{margin:0;padding:0;border:0;vertical-align:baseline;font-weight:inherit;font-size:inherit;}
+body *{-webkit-tap-highlight-color:transparent;} */
+.spacer8::after{content:"";display:block;height:8px;width:100%;clear:both;}
+.spacer10::after{content:"";display:block;height:10px;width:100%;clear:both;}
+.spacer16::after{content:"";display:block;height:16px;width:100%;clear:both;}
+.spacer32::after{height:32px;clear:both;content:"";display:block;overflow:hidden;}
+/* a{-webkit-tap-highlight-color:transparent;} */
+.list_header_semiBold{font-size:14px;line-height:20px;font-weight:600;color:#091e42;display:block;text-align:left;vertical-align:middle;}
+.caption_strong_medium{font-size:12px;line-height:16px;font-weight:400;color:#42526e;display:block;text-align:left;vertical-align:middle;}
+.bold{font-weight:700!important;}
+.textC{text-align:center!important;}
+.Ng800{color:#041533!important;}
+.textC{text-align:center!important;}
+/*! CSS Used from: http://localhost:8888/universalapp/css/4.css */
+.buttons__primaryRegular{box-shadow:0 1px 4px 0 rgba(0, 106, 194, 0.2);background:#0078DB;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;outline:none;margin:0;vertical-align:middle;cursor:pointer;border:0;min-height:auto;padding:8px 16px;font-size:14px;line-height:20px;font-weight:700;color:#FFFFFF;display:inline-block;text-align:center;vertical-align:middle;}
+.buttons__primaryRegular:active{background:#005CA8;}
+.buttons__primaryRegular:hover{background:#006AC2;}
+.buttons__tertiary{box-shadow:"";background:transparent;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;outline:none;margin:0;vertical-align:middle;cursor:pointer;border:0;padding:8px 16px;font-size:14px;line-height:20px;font-weight:700;color:#0078DB;display:inline-block;text-align:left;vertical-align:middle;}
+.buttons__tertiary:active{background:#D6EFFF;}
+.buttons__tertiary:hover{background:#F0F9FF;}
+.buttons__tertiary i{margin:0 8px 0 0;}
+.buttons__semi{font-weight:600;}
+/*! CSS Used from: http://localhost:8888/universalapp/css/LoginViewLayer~PriceTrends~RequestCallback~ResalePriceTrendWrapper~areaConverter~rentAgreementMobile.css */
+::-webkit-scrollbar{width:5px;height:5px;}
+::-webkit-scrollbar-track{background:#f1f1f1;}
+::-webkit-scrollbar-thumb{background:#ccc;}
+::-webkit-scrollbar-thumb:hover{background:#555;}
+/*! CSS Used from: http://localhost:8888/universalapp/css/rentAgreementMobile.css */
+.iconS_rent_48{background:url("https://www.99acres.com/universalapp/img/RentalAgreement_v2.png");width:48px;height:48px;background-size:800px 400px;display:inline-block;vertical-align:middle;font-style:normal;background-repeat:no-repeat;}
+.iconS_rent_48.icon_contactSupport{background-position:-144px -48px;}
+.addressCard__addressCard{width:400px;background:#FFFFFF;position:relative;cursor:pointer;border:1px solid #EBECF0;padding:24px 64px 24px 44px;border-radius:4px;}
+.prptyDetailMob__wd100 > *{width:100%;}
+.prptyDetailMob__successPage{padding:20px;}
+.prptyDetailMob__contactSupportWrp{border-radius:8px;padding:20px;background-color:#FFF5E4;}
+.prptyDetailMob__contactSupportWrp > *{display:inline-block;vertical-align:top;}
+.prptyDetailMob__contactSupportWrp > div{margin-left:20px;width:calc(100% - 70px);}
+.prptyDetailMob__contactSupportWrp button{padding:0;}
+.prptyDetailMob__amountCol{width:100%;}
+.prptyDetailMob__amountCol > div{padding:10px 8px;background-color:#FFFFFF;}
+.prptyDetailMob__amountCol > div:nth-child(even){background-color:#F4F5F7;}
+.prptyDetailMob__amountCol > div > div{display:inline-block;vertical-align:middle;width:50%;font-size:12px;color:#42526E;line-height:16px;}
+.prptyDetailMob__amountCol > div > div:nth-child(2){text-align:right;color:#041533;}
+.addressCard__addressCard{width:425px;vertical-align:top;background:#FFFFFF;position:relative;cursor:pointer;border:1px solid #EBECF0;padding:24px 64px 24px 44px;border-radius:4px;}
+.addressCard__addressCard{width:400px;background:#FFFFFF;position:relative;cursor:pointer;border:1px solid #EBECF0;padding:24px 64px 24px 44px;border-radius:4px;}
+.addressCard__addressCard.addressCard__greyBg{background-color:#F4F5F7;padding:16px 55px 16px 16px;width:100%;}
+/*! CSS Used from: http://localhost:8888/universalapp/css/mobile.css */
+*{box-sizing:border-box;}
+a,a:link,a:visited{text-decoration:none;}
+div,span,a,i{margin:0;padding:0;border:0;vertical-align:baseline;font-weight:inherit;font-size:inherit;}
+.iconS_Common_48{background-image:url("https://static.99acres.com/universalapp/img/CommonSprite_v39.png")!important;background-image:-webkit-image-set(url("https://static.99acres.com/universalapp/img/CommonSprite_v39.webp") 2x, url("https://static.99acres.com/universalapp/img/CommonSprite_v39.png") 2x)!important;background-image:image-set(url("https://static.99acres.com/universalapp/img/CommonSprite_v39.png") 2x)!important;width:48px;height:48px;background-size:816px 574px;display:inline-block;vertical-align:middle;font-style:normal;background-repeat:no-repeat;}
+.iconS_Common_48.icon_greenTickBg{background-position:-144px -144px;}
+.iconS_Common_16{background-image:url("https://static.99acres.com/universalapp/img/CommonSprite_v39.png")!important;background-image:-webkit-image-set(url("https://static.99acres.com/universalapp/img/CommonSprite_v39.webp") 2x, url("https://static.99acres.com/universalapp/img/CommonSprite_v39.png") 2x)!important;background-image:image-set(url("https://static.99acres.com/universalapp/img/CommonSprite_v39.png") 2x)!important;width:16px;height:16px;background-size:272px 192px;display:inline-block;vertical-align:middle;font-style:normal;background-repeat:no-repeat;}
+.iconS_Common_16.icon_callHover{background-position:-112px 0;}
+body *{-webkit-tap-highlight-color:transparent;font-family:'Open Sans';}
+.spacer2:after{content:'';display:block;height:2px;width:100%;clear:both;}
+.spacer8:after{content:'';display:block;height:8px;width:100%;clear:both;}
+.spacer10:after{content:'';display:block;height:10px;width:100%;clear:both;}
+.spacer16:after{content:'';display:block;height:16px;width:100%;clear:both;}
+.spacer20:after{content:'';display:block;height:20px;width:100%;clear:both;}
+.spacer32:after{height:32px;clear:both;content:'';display:block;overflow:hidden;}
+.textC{text-align:center!important;}
+@media screen and (max-width: 768px){
+a{-webkit-tap-highlight-color:transparent;}
+}
+.title_bold{font-size:20px;line-height:28px;font-weight:700;color:#091E42;display:block;text-align:left;vertical-align:middle;}
+.list_header_semiBold{font-size:14px;line-height:20px;font-weight:600;color:#091E42;display:block;text-align:left;vertical-align:middle;}
+.caption_strong_medium{font-size:12px;line-height:16px;font-weight:400;color:#42526E;display:block;text-align:left;vertical-align:middle;}
+.caption_subdued_medium{font-size:12px;line-height:16px;font-weight:400;color:#8993A4;display:block;text-align:left;vertical-align:middle;}
+.bold{font-weight:700!important;}
+.textC{text-align:center!important;}
+.Ng800{color:#041533!important;}
+.textC{text-align:center!important;}
+/*! CSS Used fontfaces */
+/* @font-face{font-family:"Open Sans";font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"), local(OpenSans-Regular), url(https://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format("woff2");unicode-range:U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:"Open Sans";font-style:normal;font-weight:600;font-display:swap;src:local("Open Sans SemiBold"), local(OpenSans-SemiBold), url(https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2) format("woff2");unicode-range:U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:"Open Sans";font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"), local(OpenSans-Bold), url(https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format("woff2");unicode-range:U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:"Open Sans";font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"), local(OpenSans-Regular), url(https://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;font-display:swap;src:local("Open Sans SemiBold"), local(OpenSans-SemiBold), url(https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"), local(OpenSans-Bold), url(https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;} */

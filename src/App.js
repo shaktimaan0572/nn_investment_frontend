@@ -12,6 +12,7 @@ import Pd from './NnInvestment/Pd'
 import InvestOnline from './invest-in-property-online';
 import NnInvestment from './NnInvestment';
 import Payment from './NnInvestment/payment';
+import Thankyou from './NnInvestment/ThankyouPage/Thankyou';
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +22,7 @@ function App() {
         <Route path="/investmentDescription*" element={<Pd />} />
         <Route path="/investorPortfolio" element={<PortFolioPage />} />
         <Route path="/payment-summary-details" element={<Payment />} />
+        <Route path="/thankyoupage" element={<Thankyou />} />
       </Routes>
     </BrowserRouter>
 

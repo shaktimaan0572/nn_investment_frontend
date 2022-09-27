@@ -32,7 +32,7 @@ const Payment = (props) => {
                 </div>
             </div>
             <div style={{position: 'fixed',bottom:'0px',width:'90%'}}>
-                <button style={{ marginTop: '20px' }} onClick={() => window.location.href = "https://www.99acres.com/t/gVtL8J"}>
+                <button style={{ marginTop: '20px' }} onClick={() => window.location.href = "/thankyoupage"}>
                     Payment Now
                 </button>
             </div>

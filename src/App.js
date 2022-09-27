@@ -11,14 +11,16 @@ import PortFolioPage from './NnInvestment/PortfolioPage';
 import Pd from './NnInvestment/Pd'
 import InvestOnline from './invest-in-property-online';
 import NnInvestment from './NnInvestment';
+import Payment from './NnInvestment/payment';
 function App() {
   return (
     <BrowserRouter>
       <Routes>
          <Route path="/" element={<InvestOnline />} />
         <Route path="/searchInvestment" element={<NnInvestment />} /> 
-        <Route path="/investmentDescription" element={<Pd />} />
+        <Route path="/investmentDescription*" element={<Pd />} />
         <Route path="/investorPortfolio" element={<PortFolioPage />} />
+        <Route path="/payment-summary-details" element={<Payment />} />
       </Routes>
     </BrowserRouter>
 

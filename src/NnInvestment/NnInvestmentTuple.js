@@ -3,12 +3,12 @@ import React from 'react';
 import  "./styles.css";
 // import NnInvesData from './NnInvestmentTupleConstancts';
 
-const onClick = e => {
-  e.stopPropagation();
-  window.open("/investmentDescription", '_self'); // srp URL
-}
-
 const NnInvestmentTuple = (props) => {
+
+  const onClick = e => {
+    e.stopPropagation();
+    window.open(`/investmentDescription/commercial-investment-property-spid-${props.id}`, '_self'); // srp URL
+  }
    
     return (
       <div style={{margin:'10px 0px'}}>
@@ -30,9 +30,7 @@ const NnInvestmentTuple = (props) => {
           </div>
         </div>
         <div className={"property-image property_default_badge_wrapper"}>
-          <a className href="https://www.propertyshare.in/commercial-properties/bangalore/embassy-business-hub">
             <img className={"prop-card-img"} src={props.src} alt="embassy business hub bangalore 1 list" />
-          </a>
         </div>
         <div className={"info-body"}>
           <div className={"live-property-highlights-wrapper js-card-highlists-slider slick-initialized slick-slider"}><div className={"slick-list"}><div className="slick-track" Style={{opacity: 1, width: '0px'}} /></div></div>

@@ -1,0 +1,64 @@
+/*! CSS Used from: Embedded */
+:focus:not([data-focusvisible-polyfill]){outline:none;}
+.css-1dbjc4n{-webkit-box-align:stretch;-webkit-box-direction:normal;-webkit-box-orient:vertical;align-items:stretch;border:0px solid black;box-sizing:border-box;display:flex;flex-basis:auto;flex-direction:column;flex-shrink:0;margin:0px;min-height:0px;min-width:0px;padding:0px;position:relative;z-index:0;}
+.css-901oao{border:0px solid black;box-sizing:border-box;color:rgb(0, 0, 0);display:inline;font:14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;margin:0px;padding:0px;white-space:pre-wrap;overflow-wrap:break-word;}
+.css-9pa8cd{inset:0px;height:100%;opacity:0;position:absolute;width:100%;z-index:-1;}
+.r-1udh08x{overflow:hidden;}
+.r-z2wwpe{border-radius:4px;}
+.r-edyy15{padding:8px;}
+.r-r3u836{border-color:rgb(235, 236, 240);}
+.r-rs99b7{border-width:1px;}
+.r-36uq19{border-color:rgb(163, 218, 255);}
+.r-d9fdf6{padding-left:20px;padding-right:20px;}
+.r-1n9sb9w{margin-left:20px;margin-right:20px;}
+.r-7e3msg{margin-bottom:20px;margin-top:20px;}
+.r-1awozwy{-webkit-box-align:center;align-items:center;}
+.r-1777fci{-webkit-box-pack:center;justify-content:center;}
+.r-1mlwlqe{flex-basis:auto;}
+.r-417010{z-index:0;}
+.r-1niwhzg{background-color:rgba(0, 0, 0, 0);}
+.r-vvn4in{background-position:center center;}
+.r-u6sd8q{background-repeat:no-repeat;}
+.r-4gszlv{background-size:cover;}
+.r-1p0dtai{bottom:0px;}
+.r-1pi2tsx{height:100%;}
+.r-1d2f490{left:0px;}
+.r-u8s1d{position:absolute;}
+.r-zchlnj{right:0px;}
+.r-ipm5af{top:0px;}
+.r-13qz1uu{width:100%;}
+.r-1wyyakw{z-index:-1;}
+.r-1x0uki6{margin-top:20px;}
+.r-hpenpt{border-bottom-color:rgb(235, 236, 240);}
+.r-qklmqi{border-bottom-width:1px;}
+.r-h10h58{min-height:60px;}
+.r-uia4a0{align-content:center;}
+.r-18u37iz{-webkit-box-direction:normal;-webkit-box-orient:horizontal;flex-direction:row;}
+.r-1wtj0ep{-webkit-box-pack:justify;justify-content:space-between;}
+.r-kze2mb{color:rgb(4, 21, 51);}
+.r-98loyc{font-family:"Open Sans";}
+.r-ubezar{font-size:16px;}
+.r-1kfrs79{font-weight:600;}
+.r-1wy1o97{color:rgb(137, 147, 164);}
+.r-1enofrn{font-size:12px;}
+.r-16dba41{font-weight:400;}
+.r-1cwl3u0{line-height:16px;}
+.r-fdjqy7{text-align:left;}
+.r-1vzi8xi{vertical-align:middle;}
+.r-1nxhmzv{margin-bottom:28px;}
+.r-1d7gupr{margin-top:22px;}
+.r-um3v3g{color:rgb(37, 56, 88);}
+.r-1jj8364{margin-left:auto;}
+.r-lchren{margin-right:auto;}
+.r-a2tzq0{-webkit-box-pack:justify;justify-content:space-around;}
+.r-zd98yo{margin-bottom:32px;}
+.r-eu3ka{height:40px;}
+.r-1b43r93{font-size:14px;}
+.r-5oul0u{margin-bottom:8px;}
+.r-1hfyk0a{padding-left:10px;}
+.r-xovx4i{background-color:rgb(240, 249, 255);}
+#paymentId{
+    border-radius: 8px !important;
+    width: 100px;
+    padding-left: 20px !important;
+} 

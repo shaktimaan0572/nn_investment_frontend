@@ -1,6 +1,7 @@
 import Style from "./PdStyle.css"
 
-const TenantDetails = () => {
+const TenantDetails = (props) => {
+  const { tenantDetails : { name='', country='',description='',timePeriod={},highLights={},propertyPricing={},locationHighlights={}}={}}=props;
   return (
     <>
       <div style={{ fontSize: '16px', fontWeight: '600', height: '40px', marginLeft: '20px' }}>
@@ -17,7 +18,7 @@ const TenantDetails = () => {
                     style={{ margin: '10px', color: 'grey', fontSize: '13px', color: '#000', opacity: '.6', marginBottom: '0' }}
                   >
                     Name</p>
-                  <p className={Style["content"]} style={{ margin: '10px', fontWeight: 'bold', fontSize: '13px' }}>Deepak Kumar</p>
+                  <p className={Style["content"]} style={{ margin: '10px', fontWeight: 'bold', fontSize: '13px' }}>{name}</p>
                 </div>
               </div>
               <div className={Style["col-md-4 col-12"]}>
@@ -29,7 +30,7 @@ const TenantDetails = () => {
                   >Country</p>
                   <p className={Style["content"]}
                     style={{ margin: '10px', fontWeight: 'bold', fontSize: '13px' }}
-                  >Netherlands</p>
+                  >{country}</p>
                 </div>
               </div>
             </div>
@@ -47,7 +48,7 @@ const TenantDetails = () => {
                   <p className={Style["content"]}
                     // style={{margin:'10px'}}
                     style={{ margin: '10px', fontWeight: 'bold', fontSize: '13px' }}
-                  >Global major in electronics and health technology</p>
+                  >{description}</p>
                 </div>
               </div>
             </div>
@@ -69,7 +70,7 @@ const TenantDetails = () => {
                       <p className={Style["title"]} style={{ margin: '10px', color: 'grey', fontSize: '13px', color: '#000', opacity: '.6', marginBottom: '0' }}
                       >Lease Start Date</p>
                       <p className={Style["subtitle"]} style={{ margin: '10px', fontWeight: 'bold', fontSize: '13px' }}
-                      >01 Apr 2023</p>
+                      >{timePeriod?.leaseStartDate}</p>
                     </div>
                   </div>
                 </div>
@@ -82,7 +83,7 @@ const TenantDetails = () => {
                       <p className={Style["title"]} style={{ margin: '10px', color: 'grey', fontSize: '13px', color: '#000', opacity: '.6', marginBottom: '0' }}
                       >Lock-in Period</p>
                       <p className={Style["subtitle"]} style={{ margin: '10px', fontWeight: 'bold', fontSize: '13px' }}
-                      >5 YEARS</p>
+                      >{timePeriod?.lockInPeriod}</p>
                     </div>
                   </div>
                 </div>
@@ -95,7 +96,7 @@ const TenantDetails = () => {
                       <p className={Style["title"]} style={{ margin: '10px', color: 'grey', fontSize: '13px', color: '#000', opacity: '.6', marginBottom: '0' }}
                       >Lease End Date</p>
                       <p className={Style["subtitle"]} style={{ margin: '10px', fontWeight: 'bold', fontSize: '13px' }}
-                      >01 Apr 2038</p>
+                      >{timePeriod?.leaseEndDate}</p>
                     </div>
                   </div>
                 </div>

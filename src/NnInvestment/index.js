@@ -13,7 +13,7 @@ export default ()=>{
   const [nnInvesData, setNnInvesData] = useState([]);
 
   useEffect(() => {
-      const url = `http://nn-investment-service.herokuapp.com/nnInvestment/listings?offset=0&limit=10`;
+      const url = `https://nn-investment-service.herokuapp.com/nnInvestment/listings?offset=0&limit=10`;
       fetch(url, {
           method: "GET",
           // credentials: 'same-origin',

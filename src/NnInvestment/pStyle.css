@@ -59,6 +59,8 @@
 .r-xovx4i{background-color:rgb(240, 249, 255);}
 #paymentId{
     border-radius: 8px !important;
-    width: 100px;
+    width: 130px;
     padding-left: 20px !important;
+    border-width: 1px;
+    border-color: rgb(235, 236, 240);
 } 

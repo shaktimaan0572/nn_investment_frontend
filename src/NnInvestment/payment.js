@@ -5,7 +5,11 @@ import { useState } from "react";
 const Payment = (props) => {
     const minimumInvestment = '122200', minimumInvestmentAmt = '10000';
     const [value, setValue] = useState('');
-    console.log("setValue", value)
+    const handlePaymentNow =(e)=>{
+        e.preventDefault();
+        localStorage.setItem('investmentAmount',value);
+        window.open(`/thankyoupage`, '_self'); // srp URL
+    }
     return (
 
         <div className="css-1dbjc4n r-d9fdf6">
@@ -13,9 +17,9 @@ const Payment = (props) => {
                 <div className="css-1dbjc4n r-hpenpt r-qklmqi r-1777fci r-h10h58" style={{ alignContent: 'flex-start', height: '64px' }}>
                     <div className="css-1dbjc4n r-uia4a0 r-1awozwy r-18u37iz r-1wtj0ep">
                         <div dir="auto" className="css-901oao r-kze2mb r-98loyc r-ubezar r-1kfrs79">Investment Amount</div>
-                        <div dir="auto" className="css-901oao r-kze2mb r-98loyc r-ubezar r-1kfrs79"><input onChange={(e) => setValue(e.target.value)} value={value} style={{ padding: '10px', fontWeight: '700', borderRadius: '8px !important' }} id="paymentId" /></div></div>
+                        <div dir="auto" className="css-901oao r-kze2mb r-98loyc r-ubezar r-1kfrs79"><input onChange={(e) => setValue(e.target.value)} value={value} style={{ padding: '10px', fontWeight: '700', borderRadius: '8px !important'}} id="paymentId" placeholder="enter amount"/></div></div>
                 </div><div className="css-1dbjc4n r-hpenpt r-qklmqi r-1777fci r-h10h58">
-                    <div className="css-1dbjc4n r-uia4a0 r-1awozwy r-18u37iz r-1wtj0ep"><div dir="auto" className="css-901oao r-kze2mb r-98loyc" style={{ fontSize: '12px', fontWeight: 400 }}>GST</div><div dir="auto" className="css-901oao r-kze2mb r-98loyc r-ubezar" style={{ fontWeight: 700 }}>₹ 150</div></div></div><div className="css-1dbjc4n r-hpenpt r-qklmqi r-1777fci r-h10h58" style={{ marginBottom: '20px' }}>
+                    <div className="css-1dbjc4n r-uia4a0 r-1awozwy r-18u37iz r-1wtj0ep"><div dir="auto" className="css-901oao r-kze2mb r-98loyc" style={{ fontSize: '12px', fontWeight: 400 }}>Charges</div><div dir="auto" className="css-901oao r-kze2mb r-98loyc r-ubezar" style={{ fontWeight: 700 }}>₹ 150</div></div></div><div className="css-1dbjc4n r-hpenpt r-qklmqi r-1777fci r-h10h58" style={{ marginBottom: '20px' }}>
                     <div className="css-1dbjc4n r-uia4a0 r-1awozwy r-18u37iz r-1wtj0ep"><div dir="auto" className="css-901oao r-kze2mb r-98loyc r-ubezar" style={{ fontWeight: 700 }}>Total</div><div dir="auto" className="css-901oao r-kze2mb r-98loyc r-ubezar" style={{ fontWeight: 700 }}>₹ {+value + 150}</div></div></div></div><div className="css-1dbjc4n"><div dir="auto" className="css-901oao r-1wy1o97 r-1enofrn r-16dba41 r-1cwl3u0 r-fdjqy7 r-1vzi8xi">Do you have a valid GSTIN ? <div tabIndex={0} className="css-1dbjc4n r-1loqt21 r-xoduu5 r-1otgn73"><span className="css-901oao css-16my406 r-17iqy7s r-1enofrn r-1kfrs79 r-1cwl3u0 r-fdjqy7 r-1vzi8xi">Enter GST Number</span></div></div></div>
             <div dir="auto" className="css-901oao r-98loyc r-1nxhmzv r-1d7gupr" style={{ color: 'rgb(9, 30, 66)', fontSize: '20px', fontWeight: 700 }}>Payment options</div><div tabIndex={0} className="css-1dbjc4n r-1awozwy r-xovx4i r-36uq19 r-z2wwpe r-rs99b7 r-18u37iz r-eu3ka r-1wtj0ep r-5oul0u r-edyy15 r-1hfyk0a" id="bos_mob_payment_options_0"><div dir="auto" className="css-901oao r-98loyc r-1b43r93 r-1kfrs79">Credit Card</div><div className="css-1dbjc4n r-1mlwlqe r-1udh08x r-417010" style={{ height: '16px', width: '16px' }}><div className="css-1dbjc4n r-1niwhzg r-vvn4in r-u6sd8q r-4gszlv r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw" style={{ backgroundImage: 'url("/universalapp/img/checkCircle.shared.png")' }} /><img alt="" draggable="false" src="/universalapp/img/checkCircle.shared.png" className="css-9pa8cd" /></div></div><div tabIndex={0} className="css-1dbjc4n r-1awozwy r-r3u836 r-z2wwpe r-rs99b7 r-18u37iz r-eu3ka r-1wtj0ep r-5oul0u r-edyy15 r-1hfyk0a" id="bos_mob_payment_options_1">
                 <div dir="auto" className="css-901oao r-98loyc r-1b43r93 r-16dba41">EMI</div><div className="css-1dbjc4n r-1mlwlqe r-1udh08x r-417010" style={{ height: '16px', width: '16px' }}><div className="css-1dbjc4n r-1niwhzg r-vvn4in r-u6sd8q r-4gszlv r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw" style={{ backgroundImage: 'url("/universalapp/img/checkCircleGrey.shared.png")' }} /><img alt="" draggable="false" src="/universalapp/img/checkCircleGrey.shared.png" className="css-9pa8cd" /></div></div><div tabIndex={0} className="css-1dbjc4n r-1awozwy r-r3u836 r-z2wwpe r-rs99b7 r-18u37iz r-eu3ka r-1wtj0ep r-5oul0u r-edyy15 r-1hfyk0a" id="bos_mob_payment_options_2"><div dir="auto" className="css-901oao r-98loyc r-1b43r93 r-16dba41">Net Banking</div><div className="css-1dbjc4n r-1mlwlqe r-1udh08x r-417010" style={{ height: '16px', width: '16px' }}><div className="css-1dbjc4n r-1niwhzg r-vvn4in r-u6sd8q r-4gszlv r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw" style={{ backgroundImage: 'url("/universalapp/img/checkCircleGrey.shared.png")' }} />
@@ -31,8 +35,8 @@ const Payment = (props) => {
                     </div>
                 </div>
             </div>
-            <div style={{position: 'fixed',bottom:'0px',width:'90%'}}>
-                <button style={{ marginTop: '20px' }} onClick={() => window.location.href = "/thankyoupage"}>
+            <div style={{position: 'fixed',bottom:'10px',width:'90%'}}>
+                <button style={{ marginTop: '20px' }} onClick={handlePaymentNow}>
                     Payment Now
                 </button>
             </div>

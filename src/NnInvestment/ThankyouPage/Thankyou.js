@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Cookies from 'universal-cookie';
-
-
 import './thankyou.css'
 
 const onClick = e => {
@@ -10,8 +7,8 @@ const onClick = e => {
   }
 
 const Thankyou = () => {
-  const cookies = new Cookies();
-  let investmentAmount=cookies.get('investmentAmount')
+  let investmentAmount=localStorage.getItem('investmentAmount');
+
   return (
     <div
     className="prptyDetailMob__successPage pageComponent"
@@ -53,11 +50,15 @@ const Thankyou = () => {
       </div>
       <div>
         <div>Investments</div>
-        <div>{investmentAmount}</div>
+        <div>₹ {investmentAmount}</div>
+      </div>
+      <div>
+        <div>Charges</div>
+        <div>₹ 150</div>
       </div>
       <div>
         <div>Total Amount paid</div>
-        <div>{+investmentAmount+150}</div>
+        <div>₹ {+investmentAmount+150}</div>
       </div>
       {/* <div>
         <div>Order Placed By</div>

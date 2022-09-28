@@ -19,7 +19,7 @@ function App() {
       <Routes>
          <Route path="/" element={<InvestOnline />} />
         <Route path="/searchInvestment" element={<NnInvestment />} /> 
-        <Route path="/investmentDescription*" element={<Pd />} />
+        <Route path="/investmentDescription/*" element={<Pd />} />
         <Route path="/investorPortfolio" element={<PortFolioPage />} />
         <Route path="/payment-summary-details" element={<Payment />} />
         <Route path="/thankyoupage" element={<Thankyou />} />

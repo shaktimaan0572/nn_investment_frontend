@@ -14,11 +14,13 @@ const Pd = ()=>{
   const [pdData, setPdData] = useState({});
 
   useEffect(() => {
-      const id=window.location.href.split('-')[4];
+      const id=window.location.href.split('-')[window.location.href.split('-').length-1];
       const url = `https://nn-investment-service.herokuapp.com/nnInvestment/listing?listingId=${id}`;
       fetch(url, {
           method: "GET",
-          credentials: 'same-origin',
+          headers: {
+            "Content-Type": "Application/json"
+          }
       }).then(res => res.json())
           .then((data) => {
               console.log("data",data)
@@ -43,11 +45,13 @@ const Pd = ()=>{
 
     const investNowHandle =(e)=>{
       e.stopPropagation();
-      const id=window.location.href.split('-')[4];
+      const id=window.location.href.split('-')[window.location.href.split('-').length-1];
       const url = `https://nn-investment-service.herokuapp.com/nnInvestment/listing/response/${id}`;
       fetch(url, {
           method: "PUT",
-          credentials: 'same-origin',
+          headers: {
+            "Content-Type": "Application/json"
+          }
       }).then(res => res.json())
           .then((data) => {
             console.log("succesfully invested")

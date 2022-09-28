@@ -23,7 +23,7 @@ const NnInvestmentTuple = (props) => {
               <div className={"propshare-property-badge"} Style={{backgroundColor: '#24C7EC'}}>
                 <div className={"propshare-property-badge-sub"} Style={{color: '#24C7EC'}} />
                 <p className={"propshare-property-badge-text"}>
-                  Fully Funded
+                  PRE-BOOKED
                 </p>
               </div>
             </div>

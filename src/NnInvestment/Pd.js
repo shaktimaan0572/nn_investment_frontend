@@ -55,10 +55,9 @@ const Pd = ()=>{
       }).then(res => res.json())
           .then((data) => {
             console.log("succesfully invested")
+            window.open(`/payment-summary-details`, '_self'); // srp URL
           })
           .catch((err) => console.log(err));
-      window.open(`/payment-summary-details`, '_self'); // srp URL
-      
     }
 
     return (
